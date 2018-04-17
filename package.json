@@ -1,22 +1,25 @@
 {
-  "name": "geo-tz",
+  "name": "geo-tz-fast",
   "version": "0.0.0-semantically-released",
   "description": "A node.js module to find the timezone at specific gps coordinates",
   "keywords": [
     "timezone"
   ],
-  "author": "Evan Siroky",
+  "author": [
+    "Evan Siroky",
+    "Arne Seib <arne.seib@windy.com>"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/evansiroky/node-geo-tz.git"
+    "url": "https://github.com/windycom/node-geo-tz.git"
   },
   "bugs": {
-    "url": "https://github.com/evansiroky/node-geo-tz/issues"
+    "url": "https://github.com/windycom/node-geo-tz/issues"
   },
-  "homepage": "https://github.com/evansiroky/node-geo-tz#readme",
+  "homepage": "https://github.com/windycom/node-geo-tz#readme",
   "engines": {
-    "node": ">=4"
+    "node": ">=7"
   },
   "main": "index.js",
   "scripts": {
