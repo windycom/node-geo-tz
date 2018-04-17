@@ -13,7 +13,7 @@ const getTimezoneByName = (id, ts) => {
 		offset: zone._offset,
 		name: zone.format('z'),
 		designator: zone.format('Z'),
-		type: 't',
+		type: id.match(/^Etc\//) ? 'n' : 't',
 	};
 };
 
